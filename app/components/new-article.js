@@ -1,10 +1,10 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  addNewRental: false,
+  addNewarticle: false,
   actions: {
-    rentalFormShow() {
-      this.set('addNewRental', true);
+    articleFormShow() {
+      this.set('addNewarticle', true);
     },
     save1() {
       var params = {
@@ -14,8 +14,8 @@ export default Ember.Component.extend({
         image: this.get('image') ? this.get('image') : "",
         bedrooms: this.get('bedrooms') ? this.get('bedrooms') : "",
       };
-      this.set('addNewRental', false);
-      this.sendAction('rentalSave', params);
+      this.set('addNewarticle', false);
+      this.sendAction('articleSave', params);
     }
   }
 });
