@@ -5,7 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'super-articles',
     environment: environment,
     contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
-    firebase: 'https://superarticles-5282b.firebaseio.com/',
+    firebase: 'https://superarticles-c6d00.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {

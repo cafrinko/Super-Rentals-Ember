@@ -1,47 +1,27 @@
-{
-  "articles": [{
+{ "rentals": [{
+    "owner": "Veruca Salt",
+    "city": "San Francisco",
+    "type": "Estate",
     "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
-    "title": "Estate",
-    "author": "Veruca Salt",
-    "category": "San Francisco",
-    "date": "June 7, 2016"
+    "bedrooms": 15
   }, {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
-    "title": "Estate",
-    "author": "Veruca Salt",
-    "category": "San Francisco",
-    "date": "June 7, 2016"
+    "owner": "Mike Teavee",
+    "city": "Seattle",
+    "type": "Condo",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg",
+    "bedrooms": 1
   }, {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
-    "title": "Estate",
-    "author": "Veruca Salt",
-    "category": "San Francisco",
-    "date": "June 7, 2016"
-  }, {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
-    "title": "Estate",
-    "author": "Veruca Salt",
-    "category": "San Francisco",
-    "date": "June 7, 2016"
-  },{
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
-    "title": "Estate",
-    "author": "Veruca Salt",
-    "category": "San Francisco",
-    "date": "June 7, 2016"
+    "owner": "Violet Beauregarde",
+    "city": "Portland",
+    "type": "Apartment",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg",
+    "bedrooms": 3
   }],
-
-"announcements": [{
-    "announcement": "The weather is out of control",
-    "author": "Bill Nye",
-    "date": "6/3/2016"
+  "cities": [{
+    "name": "Portland",
+    "country": "USA"
   }, {
-    "announcement": "Ice cream sale",
-    "author": "MR. Icee",
-    "date": "1/7/2016"
-  }, {
-    "announcement": "STAY AWAKE",
-    "author": "The one who pins eyelids open",
-    "date": "6/6/2016"
+    "name": "Seattle",
+    "country": "USA"
   }]
 }
